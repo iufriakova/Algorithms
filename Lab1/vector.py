@@ -96,21 +96,21 @@ def results(filename, function):
 
 
 # constant function
-results("const_function.txt", const_function)
+results("data/const_function.txt", const_function)
 # the sum of the elements
-results("sum_function.txt", sum)
+results("data/sum_function.txt", sum)
 # the product of the elements
-results("prod_function.txt", prod)
+results("data/prod_function.txt", prod)
 # polynomial function - direct calculation
-results("direct_polynom.txt", direct_polinom)
+results("data/direct_polynom.txt", direct_polinom)
 # polynomial function - horner's method
-results("horner_polynom.txt", horner_polinom)
+results("data/horner_polynom.txt", horner_polinom)
 # bubble sort
-results("bubble_sort.txt", bubble_sort)
+results("data/bubble_sort.txt", bubble_sort)
 # quick sort
-results("quick_sort1.txt", quick_sort)
+results("data/quick_sort1.txt", quick_sort)
 # timsort
-results("tim_sort1.txt", sorted)
+results("data/tim_sort1.txt", sorted)
 
 
 

@@ -13,7 +13,7 @@ def product_function(a, b):
     return c
 
 
-file = open('matrix_function.txt', 'w')
+file = open('data/matrix_function.txt', 'w')
 for n in range(1, 501):
     total_time = 0
     # generation of the random matrices a and b of size n*n
